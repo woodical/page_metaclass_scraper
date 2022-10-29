@@ -12,9 +12,6 @@ class ScraperMeta(type):
         return type.__new__(cls, name, bases, dct)
 
     def __call__(cls, url):
-        # doc = etree.parse(url)
-        # doc = lxml.html.parse(url)
-        # parser = etree.HTMLParser()
         page = requests.get(url).content
         doc = etree.HTML(page)
 
