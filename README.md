@@ -17,6 +17,7 @@ Recommended config in `pyrightconfig.json` but not actually needed.
     }
 
 and yet just an empty file `pyrightconfig.json` was good enough to fix the issue
+
     Import could not be resolved
 
 The file effectively marks the project root.
