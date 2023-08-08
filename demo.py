@@ -1,5 +1,5 @@
-import scraper
 import fact
+import scraper
 
 
 class KoderScraper(scraper.Scraper):

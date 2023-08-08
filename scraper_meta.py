@@ -1,6 +1,7 @@
-from lxml import etree
-import fact
 import requests
+from lxml import etree
+
+import fact
 
 
 class ScraperMeta(type):
